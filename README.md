@@ -4,7 +4,7 @@ These scripts work together with Bowtie2 to associate barcodes with a-synuclein 
 
 Procedure
 1) Run merge.py
-2) Run Bowtie2 on the output of merge.py ('bowtie_input.fastq') against the list of reference sequences ('reference_sequences.fasta')
+2) Run Bowtie2 on the output of merge.py ('bowtie_input.fastq') against the list of reference sequences ('reference_sequences.fasta'), retaining only the best mapping
 3) Run parse_bowtie.py
 
 Associated Files
